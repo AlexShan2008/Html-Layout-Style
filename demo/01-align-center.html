@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/01-align-center.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>1 水平居中</h2>
+        <h3>1.1 内联元素水平居中</h3>
+        <div class="center-text">
+            I am a handsome boy
+        </div>
+        <h3>1.2 块级元素水平居中</h3>
+        <div calss="center-block">
+            I am from China
+        </div>
+        <h3>1.3 多块级元素水平居中</h3>
+        <h4>1.3.1 利用inline-block</h4>
+        <ul class="container">
+            <li>Beijing</li>
+            <li>Shanghai</li>
+            <li>Hongkong</li>
+            <li>Shenzhen</li>
+        </ul>
+        <h4>1.3.2 利用flex</h4>
+        <ul class="flex-center">
+            <li>Beijing</li>
+            <li>Shanghai</li>
+            <li>Hongkong</li>
+            <li>Shenzhen</li>
+        </ul>
+        <h2>2 垂直居中</h2>
+        <h3>2.1 单行内联元素垂直居中</h3>
+        <div class="v-box">
+            I am inline
+        </div>
+        <h3>2.2 多行内联元素垂直居中</h3>
+        <h4>2.2.1 利用table布局</h4>
+        <ul class="center-table">
+            <li class="v-cell">Beijing</li>
+            <li class="v-cell">Shanghai</li>
+            <li class="v-cell">Hongkong</li>
+            <li class="v-cell">Shenzhen</li>
+        </ul>
+        <h4>2.2.2 利用flex布局</h4>
+        <ul class="center-flex">
+            <li class="">Beijing</li>
+            <li class="">Shanghai</li>
+            <li class="">Hongkong</li>
+            <li class="">Shenzhen</li>
+            </ul>
+        <h4>2.2.3 利用"精灵元素"</h4>
+        <ul class="center-ghost">
+                <li class="">Beijing</li>
+                <li class="">Shanghai</li>
+                <li class="">Hongkong</li>
+                <li class="">Shenzhen</li>
+            </ul>
+        <h3>2.3 块级元素垂直居中</h3>
+        <h4>2.3.1 固定高度的块级元素 margin-top</h4>
+        <div class="parent">
+            <div class="child">
+                Hello World!
+            </div>
+        </div>
+        <h4>2.3.2 未知高度的块级元素 transform</h4>
+        <div class="parent-transform">
+            <div class="child-transform">
+                Hello World!
+            </div>
+        </div>
+        <h2>3 水平垂直居中</h2>
+        <h3>3.1 固定宽高水平居中</h3>
+        <div class="parent-box">
+            <div class="child-box">
+                    Hello World!
+            </div>
+        </div>
+        <h3>3.2 未知宽高水平居中</h3>
+        <div class="parent-box-unknown">
+                <div class="child-box-unknown">
+                        Hello World!
+                </div>
+            </div>
+        <h3>3.3 利用flex布局</h3>
+        <div class="parent-box-flex">
+                <div class="child-box-flex">
+                        Hello World!
+                </div>
+            </div>
+        <h3>3.4 利用grid布局</h3>
+        <div class="parent-box-grid">
+                <div class="child-box-grid">
+                        Hello World!
+                </div>
+            </div>
+        <h3>3.5 屏幕上水平垂直居中</h3>
+        <div class="outer">
+            <div class="middle">
+                <div class="inner">
+                    Inner
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

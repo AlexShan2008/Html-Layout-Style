@@ -1,0 +1,38 @@
+nav{
+width:1280px;
+margin:0 atuo;
+color:#999;
+background-color:#f1f1f1;
+}
+li {
+    padding:10px;
+    float:left;
+    position:relative;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+li::before{
+    display:block;
+    content:'';
+    position:absolute;
+    top:0;
+    left:100%;
+    width:0;
+    height:100%;
+    border-bottom:2px solid #2667d7;
+    transition: all .3s ease;
+}
+li:hover{
+    background-color:#666;
+    color:#fff;
+    transition: all .3s ease;
+}
+li:hover::before{
+    left:0;
+    width:100%;
+    transition: all .3s ease;
+}
+/* 选中所有hover之后的::before元素 */
+li:hover ~ li::before{
+    left:0;
+}
